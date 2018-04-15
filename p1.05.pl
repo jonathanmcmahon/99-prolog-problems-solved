@@ -1,4 +1,4 @@
-% 1.04 (*) Find the number of elements of a list.
+% 1.05 (*) Reverse the elements of a list.
 % Problem source: 
 % https://sites.google.com/site/prologsite/prolog-problems/
 % 
