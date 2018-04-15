@@ -1,4 +1,5 @@
 % 1.10 (*) Run-length encoding of a list.
+% Solution by Jonathan McMahon (github.com/jonathanmcmahon)
 % Problem source: 
 % https://sites.google.com/site/prologsite/prolog-problems/
 % 

@@ -1,7 +1,8 @@
 % 1.08 (**) Eliminate consecutive duplicates of list elements.
+% Solution by Jonathan McMahon (github.com/jonathanmcmahon)
 % Problem source: 
 % https://sites.google.com/site/prologsite/prolog-problems/
-% 
+%
 % Example usage:
 % ?- compress([a,a,a,a,b,c,c,a,a,d,e,e,e,e],X).
 % X = [a, b, c, a, d, e]

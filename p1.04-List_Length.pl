@@ -1,6 +1,8 @@
 % 1.04 (*) Find the number of elements of a list.
-% Problem source: https://sites.google.com/site/prologsite/prolog-problems/1
-
+% Solution by Jonathan McMahon (github.com/jonathanmcmahon)
+% Problem source: 
+% https://sites.google.com/site/prologsite/prolog-problems/
+% 
 % Example usage: 
 % ?- list_len(L, [1,2,3,4]).
 % L = 4

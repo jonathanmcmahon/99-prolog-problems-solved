@@ -1,7 +1,8 @@
 % 1.07 (**) Flatten a nested list structure. 
+% Solution by Jonathan McMahon (github.com/jonathanmcmahon)
 % Problem source: 
 % https://sites.google.com/site/prologsite/prolog-problems/
-% 
+%
 % Example usage:
 % ?- flatten_list([a, [b, [c, d], e]], L)
 % L = [a, b, c, d, e]

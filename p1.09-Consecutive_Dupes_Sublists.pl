@@ -1,4 +1,5 @@
 % 1.09 (**) Pack consecutive duplicates of list elements into sublists.
+% Solution by Jonathan McMahon (github.com/jonathanmcmahon)
 % Problem source: 
 % https://sites.google.com/site/prologsite/prolog-problems/
 % 
