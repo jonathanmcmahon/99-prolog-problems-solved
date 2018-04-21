@@ -9,12 +9,15 @@
 
 :- ensure_loaded("p1.20-Remove_Kth_Element").
 
-rnd_select(_, 0, X, X).
+rnd_select([], 0, _, []).
+
+rnd_select([E], 1, S, [E|S]).
 
 rnd_select(L, N, S, X) :-
     N > 0,
     Nn is N - 1,
-    length(L, Len),
+    length(L, Tmp),
+    Len is Tmp + 1,
     random(1, Len, R),
     remove_at(E, L, R, Ln),
     rnd_select(Ln, Nn, [E|S], X).
